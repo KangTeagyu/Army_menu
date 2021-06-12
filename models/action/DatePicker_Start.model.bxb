@@ -1,0 +1,15 @@
+action (DatePicker_Start) {
+  type (Search)
+  description (A test action)
+  collect {
+    input (myDate_Start) {
+      type (MyDate_Start)
+      min (Required) max (One)
+    }
+  }
+  output (MyDate_Start) {
+    evaluate {
+      $expr (myDate_Start) //이부분을 통해 바로 myDate_Start 데이터를 넘겨줌
+    }
+  }
+}

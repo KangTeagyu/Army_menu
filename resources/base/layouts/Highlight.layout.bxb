@@ -1,0 +1,39 @@
+layout-macro-def (findpet-highlight) {
+  params {
+    param (results) {
+      type (Results)
+      min (Required) max (Many)
+    }
+  }
+  content {
+    image-card {
+      aspect-ratio (4:3)
+      title-area {
+          halign (Start)
+          slot1 {
+              text {
+                  value ("#{value(results.brst)}") 
+                  style (Title_M)
+              }
+          }
+          slot2 {
+                single-line {
+                text {
+                    value ("#{value(results.brst)}") 
+                    style (Detail_M)
+                }
+              }
+            }
+          slot3 {
+              single-line {
+              text {
+                  value ("발견장소: ")
+                  style (Detail_L)
+              }
+             }
+          }
+      }
+      image-url ("#{value(url:'/assets/images/dog.jpg')}")
+    }
+  }
+}

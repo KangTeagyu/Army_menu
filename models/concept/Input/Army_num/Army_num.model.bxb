@@ -1,0 +1,21 @@
+enum (Army_num) {
+  description (__DESCRIPTION__)
+  symbol (7652)
+  symbol (3389)
+  symbol (1691)
+  symbol (2171)
+  symbol (3296)
+  symbol (5021)
+  symbol (5322)
+  symbol (6176)
+  symbol (6282)
+  symbol (6335)
+  symbol (7369)
+  symbol (8623)
+  symbol (8902)
+  symbol (9030)
+  symbol (ATC)
+  features{
+  transient
+  }
+}

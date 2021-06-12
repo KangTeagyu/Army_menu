@@ -1,0 +1,7 @@
+enum (find) {
+  description (__DESCRIPTION__)
+  features{
+  transient
+  }
+  symbol (findby)
+}

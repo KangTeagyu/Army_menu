@@ -1,0 +1,85 @@
+layout-macro-def (findpet-details2) {
+  params {
+    param (results) {
+      type (Results)
+      min (Required) max (Many)
+    }
+  }
+  content {
+    section {
+      content {
+        // image-card {
+        //   aspect-ratio (4:3)
+        //   image-url ("#{value(flower.imageUrls[0])}")
+        //   title-area {
+        //     halign (Start)
+        //     slot1 {
+        //       text {
+        //         value ("#{value(flower.name)}")
+        //         style (Title_M)
+        //       }
+        //     }
+        //   }
+        // }
+        // paragraph {
+        //   value {
+        //     template ("#{value(flower.priceRange)}")
+        //   }
+        //   style (Detail_L)
+        // }
+       
+     
+       paragraph("#{value(results.brst)} ") {
+      style(Detail_L)
+    }
+      }
+    }
+      
+        
+      }
+      
+    }
+    
+
+
+
+// //백업용임
+// layout-macro-def (findpet-details2) {
+//   params {
+//     param (results) {
+//       type (Results)
+//       min (Required) max (One)
+//     }
+//   }
+//    content {
+//     section {
+//       title {
+//         template ("오늘 아침 메뉴 입니다.")
+//       }
+//       content {
+//         single-line {
+//           text {
+//             value ("#{value(results.brst)}")
+//             style (Detail_M)
+//           }
+//         }
+      
+      
+//         partitioned {
+//             content {
+//               for-each (results.brst) {
+//                 as (brst) {
+//                   single-line {
+//                     text {
+//                       value ("#{value(results.brst)}")
+//                       style (Detail_L)
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//    }
+// }

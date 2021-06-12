@@ -1,0 +1,14 @@
+structure (InputDate) {
+  description (API서버에서 인식할 수 있는 검색시작날짜와 검색종료날짜 형식을 포함하는 structure)
+  property (mydate_start) {
+    type (MyDate_Start)
+    min (Optional) max (One)
+  }
+  // property (endde_Convert) {
+  //   type (Endde_Convert)
+  //   min (Optional) max (One)
+  // }
+  features{
+  transient
+  }
+}

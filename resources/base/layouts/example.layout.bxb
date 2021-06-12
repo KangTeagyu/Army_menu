@@ -1,0 +1,87 @@
+// layout-macro-def (kindss-image-card) {
+//   params {
+//     param (kinds) {
+//       type (Kinds)
+//       min (Required) max (One)
+//     }
+//   }
+//   content {
+//     section{
+//     content{
+//     image-card {
+//       aspect-ratio (4:3)
+//       image-url ("/images/dog.jpg")
+//       title-area {
+//         halign (Start)
+//         slot1 {
+//           text {
+//             value ("개")
+//             style (Title_M)
+//                 }
+//               }
+//             }
+//           }
+//            on-click {
+//             intent {
+//               goal: httpCall
+//               route: kinds.dog
+//             }
+//           }
+//         }
+//     }
+      
+//       content{     
+//         image-card {
+//           aspect-ratio (4:3)
+//           image-url ("/images/cat.jpg")
+//           title-area {
+//             halign (Start)
+//             slot1 {
+//               text {
+//                 value ("고양이")
+//                 style (Title_M)
+//               }
+//             }
+//           }
+//         }
+//         on-click {
+//             intent {
+//               goal: httpCall
+//             }
+//           }
+//         }
+      
+//       content{
+//         image-card {
+//           aspect-ratio (4:3)
+//           image-url ("/images/etc.jpg")
+//           title-area {
+//             halign (Start)
+//             slot1 {
+//               text {
+//                 value ("기타")
+//                 style (Title_M)
+//               }
+//             }
+//             slot2 {
+//               single-line {
+//                 text {
+//                   value ("개와 고양이를 제외한 동물")
+//                   style (Title_XS)
+//                 }
+//               }
+//             }
+          
+//           }
+//         }
+//         on-click {
+//             intent {
+//               goal: httpCall
+//             }
+//           }
+//         }
+//       }
+//     }
+  
+
+

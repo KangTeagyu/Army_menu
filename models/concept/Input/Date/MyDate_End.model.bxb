@@ -1,0 +1,6 @@
+// structure (MyDate_End) {
+//   role-of (time.Date)
+//   features{
+//   transient
+//   }
+// }

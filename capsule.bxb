@@ -1,0 +1,39 @@
+capsule {
+  id (inha_bixby.armymenu)
+  version (0.1.0)
+  format (3)
+  targets {
+    target (bixby-mobile-ko-KR)
+    target (bixby-watch-ko-KR)
+    //target (bixby-tv-ko-KR)
+    target (bixby-fridge-ko-KR)
+  }
+  capsule-imports {
+    // import (viv.entity) { 
+    //   as (entity) version (4.0.14)}
+    import (viv.time) { 
+      as (time) version(3.1.215) }
+
+    import (viv.core){
+      as (core)
+    }
+
+    import (viv.image) {
+      as (image) version(2.12.12)
+    }
+  }
+   
+  store-sections{
+    section (ArtAndLifestyle)
+    section (EducationAndReference)
+  }
+
+  runtime-version(8)
+  store-countries {
+    all {
+      except (CN)
+    }
+  }
+}
+
+//https://bixbydevelopers.com/dev/docs/dev-guide/developers/library 버전 참고

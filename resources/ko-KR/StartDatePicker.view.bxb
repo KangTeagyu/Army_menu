@@ -1,0 +1,22 @@
+input-view {
+
+  match: MyDate_Start (this)
+
+  message {
+      template (검색 시작날짜를 선택해주세요.)
+  }
+
+  render {
+    date-picker {
+      // if you wanted to specify a different  sub-type of "viv.core.BaseDate" other than the MyDate that was matched on, you specify that in "type"
+      // type (MyOtherDate)
+      initial-value (now().date)  // uses the `now()` DateTime EL function
+      restrictions {
+          // allow selection of days from two days before today
+          min-allowed ("subtractDuration(now().date, 'P1840D')")
+          // to two days after
+          max-allowed ("now().date")
+      }
+    }
+  }
+}

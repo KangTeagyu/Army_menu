@@ -1,0 +1,45 @@
+action (httpCall) {
+ description (httpcall action)
+ type(Constructor)
+ collect{
+   input (inputDate) {
+     type (InputDate)
+     min (Optional) max (One)
+     default-init {
+       intent{
+       goal: MyDate_Start
+       }
+     }
+   }
+   input (find) {
+     type (find)
+     min (Optional) max (One)
+   }
+   input (army_num) {
+     type (Army_num)
+     min (Required) max (One)
+     default-init {
+    intent {
+     goal: Army_num
+     value: Army_num(7652)
+     value: Army_num(3389)
+     value: Army_num(7369)
+     value: Army_num(9030)
+     value: Army_num(8902)
+     value: Army_num(8623)
+     value: Army_num(6335)
+     value: Army_num(6282)
+     value: Army_num(6176)
+     value: Army_num(5322)
+     value: Army_num(5021)
+     value: Army_num(3296)
+     value: Army_num(2171)
+     value: Army_num(1691)
+     value: Army_num(ATC)
+    }
+   }
+ }
+ }
+ output (Results)
+}
+

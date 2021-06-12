@@ -1,0 +1,8 @@
+endpoints {
+  action-endpoints {  
+    action-endpoint (httpCall) {
+      accepted-inputs (inputDate, army_num , find)
+      local-endpoint (httpCall.js) 
+    }
+  }
+}
