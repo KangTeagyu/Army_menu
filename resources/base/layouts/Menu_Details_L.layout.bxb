@@ -22,7 +22,7 @@ layout-macro-def (menu_details_L) {
               single-line {
                 text {
                   value ("점심 메뉴입니다.")
-                  style (Title_XS)
+                  style (Title_M)
                 }
               }
             }

@@ -1,8 +1,0 @@
-train (t-2tui77nus5689svy0sxhgb10i) {
-  utterance ("[g:httpCall] (내일)[v:time.DateTimeExpression] (점심)[v:Select_Time:Select_Lunc] (뭐야)[v:find:findby]?")
-  last-modified (1623831407494)
-}
-train (t-2yq3pz0q9wi0cyi8r8jtw0ikg) {
-  utterance ("[g:httpCall] (다음주)[v:time.DateTimeExpression] (점심)[v:Select_Time:Select_Lunc] (모야)[v:find:findby]?")
-  last-modified (1623838714404)
-}

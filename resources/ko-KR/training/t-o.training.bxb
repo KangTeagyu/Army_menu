@@ -1,8 +1,0 @@
-train (t-oj82bmc8nqjrk45d7ha38wqjb) {
-  utterance ("[g:httpCall] (점심)[v:Select_Time:Select_Lunc] 뭐야?")
-  last-modified (1623754654134)
-}
-train (t-oj0072trz9be134ih4xmdrewy) {
-  utterance ("[g:httpCall] (저번주)[v:time.DateTimeExpression] 메뉴 (알려줘)[v:find:findby]")
-  last-modified (1624082086568)
-}

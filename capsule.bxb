@@ -1,5 +1,5 @@
 capsule {
-  id (inha_bixby.armymenu)
+  id (httpcall.armymenu)
   version (0.1.0)
   format (3)
   targets {

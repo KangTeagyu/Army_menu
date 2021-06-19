@@ -19,68 +19,75 @@ layout-macro-def (menu_details_A) {
               }
             }
             slot2 {
-              single-line {
-                text {
+            
+                paragraph {
                   value ("식사 맛있게 하십시오!")
                   style (Title_XS)
                 }
-              }
+              
             }
           }
-          partitioned {
-            content {
+           
+            divider
+              single-line{
+                text {
+                  value ("아침 메뉴입니다.\n")
+                  style (Title_M)
+                }
+              }
               for-each (results.brst) {
                 as (brst) {
-                  single-line {
-                    text  {
+                  
+                    paragraph  {
                       value ("#{value(brst)}")
-                      style (Detail_L)
+                      style (Detail_M)
                     }
                   }
                 }
+              
+              divider
+               single-line{
+                text {
+                  value ("점심 메뉴입니다.\n")
+                  style (Title_M)
+                }
               }
-            }
-          }
-          
-        }
-      }
-      section {
-        content {
-          partitioned {
-            content {
+              
               for-each (results.lunc) {
                 as (lunc) {
-                  single-line {
-                    text  {
+                  
+                    paragraph  {
                       value ("#{value(lunc)}")
-                      style (Detail_L)
+                      style (Detail_M)
                     }
-                  }
+                  
                 }
               }
-            }
-          }
+              divider
+                single-line{
+                text {
+                  value ("저녁 메뉴입니다.\n")
+                  style (Title_M)
+                }
+              }
+              
+               for-each (results.dinr) {
+                  as (dinr) {
+                    
+                      paragraph {
+                        value ("#{value(dinr)}")
+                        style (Detail_M)
+                      }
+                  
+                  }
+                }
+            
+          
           
         }
       }
-        section {
-          content {
-            partitioned {
-              content {
-                for-each (results.dinr) {
-                  as (dinr) {
-                    single-line {
-                      text  {
-                        value ("#{value(dinr)}")
-                        style (Detail_L)
-                      }
-                    }
-                  }
-                }
-              }
-            } 
-          }
-        }
+
+
     }
 
 }

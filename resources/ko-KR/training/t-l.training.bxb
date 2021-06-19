@@ -1,4 +1,0 @@
-train (t-lyiayv1xso1m7cxk8qff0kh60) {
-  utterance ("[g:httpCall] (내일 모레)[v:time.DateTimeExpression] (점심)[v:Select_Time:Select_Lunc] (모야)[v:find:findby]?")
-  last-modified (1623840615243)
-}

@@ -1,4 +1,5 @@
-train (t-uesj24sqlwyejj7q6a9t7qyq9) {
-  utterance ("[g:httpCall] (저번주 월요일)[v:time.DateTimeExpression] (점심)[v:Select_Time:Select_Lunc] (모야?)[v:find:findby]")
-  last-modified (1623839622324)
+train (t-u4wsk04go6a4e9aiblj5rsxvt) {
+  utterance ("[g:httpCall] 내일 (점심)[v:Select_Time:Select_Lunc] 알려줘")
+  plan (Y2BhkMwoKSlITszJ0Ussyq3MTc0r1QtKLS7NKSlmkMKUAok4A0WwyTkCGfF5pbkMsphywak5qckl8SGZuakMzAyMDExAkgFIgyAEMAFZQDEA)
+  last-modified (1624101181316)
 }
