@@ -1,0 +1,5 @@
+template-macro-def (no_result) {
+  content {
+    template("현재 식단 정보가 제공되고 있지 않습니다.")
+  }
+}

@@ -291,3 +291,124 @@
   //    } //else (result['DS_TB_MNDT_DATEBYMLSVC_'+ String(army_num)]['row'][i]= '데이터없음')
   //   }
   // }
+
+//20210614 백업
+// module.exports.function = function httpCall (army_num, find, date_input){
+  
+//   function numberPad(n, width) {
+//     n = n + '';
+//     return n.length >= width ? n : new Array(width - n.length + 1).join('0') + n;
+// } 
+//   var http = require('http')
+//   var console = require('console')
+
+
+//   if ( army_num == 7652 ) { server = "https://miumvsnz2c.execute-api.us-east-1.amazonaws.com/default/army_7652"}
+//   if ( army_num == 7369 ) { server = "https://ss9g58rl46.execute-api.us-east-1.amazonaws.com/default/army_7369"}
+//   if ( army_num == 9030 ) { server = "https://76azup5d8b.execute-api.us-east-1.amazonaws.com/default/army_9030"}
+//   if ( army_num == 8902 ) { server = "https://ge6bewzau9.execute-api.us-east-1.amazonaws.com/default/army_8902"}
+//   if ( army_num == 8623 ) { server = "https://i4xt1lclpd.execute-api.us-east-1.amazonaws.com/default/army_8623"}
+//   if ( army_num == 6335 ) { server = "https://bqh00dsun0.execute-api.us-east-1.amazonaws.com/default/army_6335"}
+//   if ( army_num == 6282 ) { server = "https://2d4701k3qj.execute-api.us-east-1.amazonaws.com/default/army_6282"}
+//   if ( army_num == 6176 ) { server = "https://vnr4ytgmrg.execute-api.us-east-1.amazonaws.com/default/army_6176"}
+//   if ( army_num == 5322 ) { server = "https://pnbmenb1w7.execute-api.us-east-1.amazonaws.com/default/army_5322"}
+//   if ( army_num == 5021 ) { server = "https://sq5674wavh.execute-api.us-east-1.amazonaws.com/default/army_5021"}
+//   if ( army_num == 3389 ) { server = "https://vkc4iwqqfd.execute-api.us-east-1.amazonaws.com/default/army_3389"}
+//   if ( army_num == 3296 ) { server = "https://q9213qoy13.execute-api.us-east-1.amazonaws.com/default/army_3296"}
+//   if ( army_num == 2171 ) { server = "https://xist3bhhbj.execute-api.us-east-1.amazonaws.com/default/army_2171"}
+//   if ( army_num == 1691 ) { server = "https://b8081yk5aa.execute-api.us-east-1.amazonaws.com/default/army_1691"}
+//   if ( army_num == "ATC" ) { server = "https://09gtxv1jc2.execute-api.us-east-1.amazonaws.com/default/army_ATC"}
+
+
+//   var result = []
+//   result = http.getUrl( server, {format : 'json'} )
+ 
+
+
+//   console.log(result["2021-06-01"]["brst"]) 
+//   var dates_num = result.length
+
+
+//   return result["2021-06-01"]
+// }
+
+
+//  if ( army_num == 7652 ) { server = "https://miumvsnz2c.execute-api.us-east-1.amazonaws.com/default/army_7652"}
+//   if ( army_num == 7369 ) { server = 'https://e36qpwpto2.execute-api.us-east-1.amazonaws.com/default/army_7369'}
+//   if ( army_num == 9030 ) { server = "https://cuj41rvdei.execute-api.us-east-1.amazonaws.com/default/army_9030"}
+//   if ( army_num == 8902 ) { server = "https://46szavn3ee.execute-api.us-east-1.amazonaws.com/default/army_8902"}
+//   if ( army_num == 8623 ) { server = "https://99gd1d8u39.execute-api.us-east-1.amazonaws.com/default/army_8623"}
+//   if ( army_num == 6335 ) { server = "https://lg7fo4cmwi.execute-api.us-east-1.amazonaws.com/default/army_6335"}
+//   if ( army_num == 6282 ) { server = "https://pxz375yxse.execute-api.us-east-1.amazonaws.com/default/army_6282"}
+//   if ( army_num == 6176 ) { server = "https://d43zasyz71.execute-api.us-east-1.amazonaws.com/default/army_6176"}
+//   if ( army_num == 5322 ) { server = "https://atrtruhes0.execute-api.us-east-1.amazonaws.com/default/army_5322"}
+//   if ( army_num == 5021 ) { server = "https://hcdqo0bmx9.execute-api.us-east-1.amazonaws.com/default/army_5021"}
+//   if ( army_num == 3389 ) { server = "https://vod5yhwpma.execute-api.us-east-1.amazonaws.com/default/army_3389"}
+//   if ( army_num == 3296 ) { server = "https://gh0yroyg3e.execute-api.us-east-1.amazonaws.com/default/army_3296"}
+//   if ( army_num == 2171 ) { server = "https://b3iuztziq3.execute-api.us-east-1.amazonaws.com/default/army_2171"}
+//   if ( army_num == 1691 ) { server = "https://6s2xklt20m.execute-api.us-east-1.amazonaws.com/default/army_1691"}
+//   if ( army_num == "ATC" ) { server = "https://b52fsbboai.execute-api.us-east-1.amazonaws.com/default/army_ATC"}
+
+
+//20210619
+//json에 date 추가하려고 시도했던 코드(망함)
+// console.log("test1",result)
+  // console.log("test2",result[0])
+  // console.log("test3",result.length)
+  // var results = new Object()
+  // Date_Keys = Object.keys(result)
+  // console.log('데이트키',Date_Keys)
+  // console.log(Date_Keys[0])
+  // console.log(Date_Keys.length)  
+
+  // console.log("test1",test[0])
+
+  // console.log("test3",result.length)
+
+  // var resultlist = new Array()
+  // for (var i = 0; i < Date_Keys.length; i++) {
+  //   console.log("for1", i, Date_Keys[i])
+  //   console.log(result[Date_Keys[i]])
+  //   results.Dates = (Date_Keys[i])
+  //   results["Dates"][Dates.Date_Keys[i]] = result[Date_Keys[i]]
+  //   resultlist.push(results)
+    
+  //  }
+
+//  for (var i = 0; i < Date_Keys.length; i++) {
+//     console.log("for1", i, Date_Keys[i])
+//     //console.log(result[Date_Keys[i]])
+//     results.Dates = (Date_Keys[i])
+//     results.Dates.Menu = result[Date_Keys[i]]
+//     resultlist.push(results)
+//     //resultslist[Dates.Date_Keys[i]] = result[Date_Keys[i]]
+    
+    
+//    }
+
+
+  // console.log("결과값", resultlist)
+
+
+  // if (Startday == Endday ){ //단일 날짜일 경우,
+  //   if (Select_Time){result = result[Startday][Select_Time]
+  //   var Case = 1
+  //   // result.Case = "1"
+  //   console.log("최종값", result)
+  //   return result} //아,점, 저 중 하나 있으면 출력 
+  // else {
+  //   console.log("그외 식단")
+  //   var Case = 1
+  //   // result["Case"] = "2"
+  //   console.log("최종값", result)
+  //   return result}} //그외 모든 식단 출력
+  // else {
+  //   console.log("한달치")
+  //   var Case = 3
+  //   // result["Case"] = "3"
+  //   console.log("최종값", result)
+  //   return result} //단일 날짜가 아닐 경우에는 모든 데이터 가져와
+
+
+  //console.log(typeof(result)) 
+  //var dates_num = result.length

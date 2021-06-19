@@ -12,7 +12,7 @@ capsule {
     // import (viv.entity) { 
     //   as (entity) version (4.0.14)}
     import (viv.time) { 
-      as (time) version(3.1.215) }
+      as (time) version(3.6.6) }
 
     import (viv.core){
       as (core)

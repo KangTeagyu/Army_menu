@@ -1,0 +1,4 @@
+train (t-sg1txopg034bt8ztpgex59wjn) {
+  utterance ("[g:httpCall] (다음주 월요일)[v:time.DateTimeExpression] (아침)[v:Select_Time:Select_Brst] (뭐야)[v:find:findby]?")
+  last-modified (1623839125545)
+}

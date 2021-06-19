@@ -1,4 +1,4 @@
-layout-macro-def (findpet-highlight) {
+layout-macro-def (menu_highlight) {
   params {
     param (results) {
       type (Results)
@@ -12,14 +12,14 @@ layout-macro-def (findpet-highlight) {
           halign (Start)
           slot1 {
               text {
-                  value ("#{value(results.brst)}") 
+                  value ("#{value(results.date)}") 
                   style (Title_M)
               }
           }
           slot2 {
                 single-line {
                 text {
-                    value ("#{value(results.brst)}") 
+                    value ("#{value(results.date)}") 
                     style (Detail_M)
                 }
               }
@@ -33,7 +33,7 @@ layout-macro-def (findpet-highlight) {
              }
           }
       }
-      image-url ("#{value(url:'/assets/images/dog.jpg')}")
+      // image-url ("#{value(url:'/assets/images/dog.jpg')}")
     }
   }
 }

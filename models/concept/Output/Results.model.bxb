@@ -16,8 +16,8 @@ structure (Results) {
     type (Brst_cal)
     min (Optional) max (Many)
   }
-  property (dates) {
-    type (Dates)
+  property (date) {
+    type (Date)
     min (Optional) max (Many)
   }
   property (dinr) {
@@ -40,5 +40,13 @@ structure (Results) {
     type (Sum_cal)
     min (Optional) max (Many)
   }
+  property (select_Time) {
+  type (Select_Time)
+  min (Optional) max (Many)
+}
+  property (cake) {
+  type (Cake)
+  min (Optional) max (Many)
+}
 
 }

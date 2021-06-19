@@ -1,0 +1,3 @@
+text (Days) {
+  description (하루 인지, 하루 초과인지 판단)
+}

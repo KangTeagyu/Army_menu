@@ -8,24 +8,53 @@ result-view {
       speech("식사 맛있게 하십시오.")}
     }
   render {
-    if(size(results)>1){
+    if(size(results) > 1 ){ //여러 일자가 있을 때 하이라이트 카드뷰 보여줌
       list-of (results) {
        // has-details (true)
         where-each (results) {
-          layout-macro (findpet-highlight) {
+          layout-macro (menu_highlight) {
             param (results) {
               expression (results)
             }
           }
         }
       }
-     }else-if (size(results) == 1) {
-      layout{
-        layout-macro (findpet-details2) {
-          param (results) {
-            expression (results)
+     }else-if (size(results) == 1) { //하루일때  아,점,저 혹은 모든 메뉴
+       if(results.select_Time == 'Select_Brst'){
+        layout{
+          layout-macro (menu_details_B) {
+            param (results) {
+              expression (results)
+                    }
                   }
-                 }
+                  }
+                }
+        else-if(results.select_Time == 'Select_Lunc'){
+        layout{
+          layout-macro (menu_details_L) {
+            param (results) {
+              expression (results)
+                    }
+                  }
+                  }
+                }
+        else-if(results.select_Time == 'Select_Dinr'){
+        layout{
+          layout-macro (menu_details_D) {
+            param (results) {
+              expression (results)
+                    }
+                  }
+                  }
+                }
+        else-if(!exists(results.select_Time)){
+        layout{
+          layout-macro (menu_details_A) {
+            param (results) {
+              expression (results)
+                    }
+                  }
+                  }
                 }
                }
               }
@@ -34,13 +63,13 @@ result-view {
     
   conversation-drivers {
      conversation-driver {
-      template ("개 검색결과 보여줘")
+      template ("내일 메뉴 알려줘")
     }
     conversation-driver {
-      template ("고양이 검색결과 보여줘")
+      template ("이번주 메뉴 알려줘")
     }
     conversation-driver {
-      template ("기타동물 검색결과 보여줘")
+      template ("이번달 메뉴 알려줘")
     }
   }
   

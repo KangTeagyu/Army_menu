@@ -1,0 +1,9 @@
+enum (Select_Time) {
+  description (__DESCRIPTION__)
+  symbol (Select_Brst)
+  symbol (Select_Lunc)
+  symbol (Select_Dinr)
+  features{
+  transient
+  }
+}

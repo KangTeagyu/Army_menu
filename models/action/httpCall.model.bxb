@@ -2,17 +2,17 @@ action (httpCall) {
  description (httpcall action)
  type(Constructor)
  collect{
-   input (inputDate) {
-     type (InputDate)
-     min (Optional) max (One)
-     default-init {
-       intent{
-       goal: MyDate_Start
-       }
-     }
-   }
+   input (myDateTimeExpression) {
+      type (MyDateTimeExpression)
+      min (Optional) max (One)
+    }
+
    input (find) {
      type (find)
+     min (Optional) max (One)
+   }
+    input (select_Time) {
+     type (Select_Time)
      min (Optional) max (One)
    }
    input (army_num) {
@@ -40,6 +40,26 @@ action (httpCall) {
    }
  }
  }
- output (Results)
+ output (Results){
+     throws{
+      error (NoResult){
+        on-catch {
+          halt {
+            dialog {
+              template-macro (no_result)
+            }
+          }
+        }
+      }
+      unknown-error{
+        on-catch {
+          halt {
+            dialog {
+              template-macro (no_result)
+            }
+          }
+        }
+      }
+    }
+  }
 }
-

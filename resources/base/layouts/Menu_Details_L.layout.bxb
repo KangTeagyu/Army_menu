@@ -1,0 +1,49 @@
+layout-macro-def (menu_details_L) {
+  params {
+    param (results) {
+      type (Results)
+      min (Required) max (Many)
+    }
+  }
+
+    content {
+      section {
+        content {
+           title-area {
+            halign (Center)
+            slot1 {
+              text {
+                value ("#{value(results.date)}")
+                style (Title_L)
+                
+              }
+            }
+            slot2 {
+              single-line {
+                text {
+                  value ("점심 메뉴입니다.")
+                  style (Title_XS)
+                }
+              }
+            }
+          }
+          partitioned {
+            content {
+              for-each (results.lunc) {
+                as (lunc) {
+                  single-line {
+                    text  {
+                      value ("#{value(lunc)}")
+                      style (Detail_L)
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+}
+//점심메뉴 세부사항

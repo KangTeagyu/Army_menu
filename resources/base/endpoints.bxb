@@ -1,8 +1,12 @@
 endpoints {
   action-endpoints {  
     action-endpoint (httpCall) {
-      accepted-inputs (inputDate, army_num , find)
+      accepted-inputs (inputDate, army_num, find, select_Time, myDateTimeExpression)
       local-endpoint (httpCall.js) 
+    }
+    action-endpoint (EchoDateTimeExpression) {
+      accepted-inputs (dateTimeExpression, $vivContext)
+      local-endpoint (EchoDateTimeExpression.js)
     }
   }
 }

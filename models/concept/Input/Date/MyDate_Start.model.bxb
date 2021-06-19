@@ -1,6 +1,0 @@
-structure (MyDate_Start) {
-  role-of (time.Date)
-  features{
-  transient
-  }
-}

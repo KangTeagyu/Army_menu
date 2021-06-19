@@ -1,0 +1,48 @@
+layout-macro-def (menu_details_B) {
+  params {
+    param (results) {
+      type (Results)
+      min (Required) max (Many)
+    }
+  }
+
+    content {
+      section {
+        content { title-area {
+            halign (Center)
+            slot1 {
+              text {
+                value ("#{value(results.date)}")
+                style (Title_L)
+                
+              }
+            }
+            slot2 {
+              single-line {
+                text {
+                  value ("아침 메뉴입니다.")
+                  style (Title_XS)
+                }
+              }
+            }
+          }
+          partitioned {
+            content {
+              for-each (results.brst) {
+                as (brst) {
+                  single-line {
+                    text  {
+                      value ("#{value(brst)}")
+                      style (Detail_L)
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+}
+//아침메뉴 세부사항
