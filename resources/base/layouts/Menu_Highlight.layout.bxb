@@ -19,7 +19,7 @@ layout-macro-def (menu_highlight) {
           slot2 {
                 single-line {
                 text {
-                    value ("#{value(results.date)}") 
+                    value ("상세한 식단 정보를 보시려면 카드를 눌러주세요.") 
                     style (Detail_M)
                 }
               }
@@ -27,13 +27,18 @@ layout-macro-def (menu_highlight) {
           slot3 {
               single-line {
               text {
-                  value ("발견장소: ")
+                  value ("#{value(results.brst)}, #{value(results.lunc)} ")
                   style (Detail_L)
               }
              }
           }
+          
       }
-      // image-url ("#{value(url:'/assets/images/dog.jpg')}")
+      image-url ("/images/1.jpg")
+      on-click {
+        view-for (results)
+      }    
     }
   }
 }
+

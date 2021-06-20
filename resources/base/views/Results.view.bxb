@@ -1,5 +1,5 @@
 result-view {
-  // This view is used to show the SpaceResort details when the user select a space resort from a summary list. This follows the design paradigm to go from Summary to Details
+ 
   match : Results (results){
      from-output:httpCall(action)
   }

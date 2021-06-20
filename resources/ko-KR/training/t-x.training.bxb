@@ -2,3 +2,7 @@ train (t-xlulmr2ciiwjy6jwgj9tvheyo) {
   utterance ("[g:httpCall] (아침)[v:Select_Time:Select_Brst] (알려줘)[v:find:findby]")
   last-modified (1624163596569)
 }
+train (t-xx0uonhm6y3ubiwt11abof4mv) {
+  utterance ("[g:httpCall] (내일)[v:time.DateTimeExpression] 메뉴 (알려줘)[v:find:findby]")
+  last-modified (1624178774543)
+}

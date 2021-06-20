@@ -1,0 +1,4 @@
+train (t-lgcbcsnzcxz5envbwljqkcjd0) {
+  utterance ("[g:httpCall] (내일)[v:time.DateTimeExpression] (점심)[v:Select_Time:Select_Lunc] (알려줘)[v:find:findby]")
+  last-modified (1624178585849)
+}
