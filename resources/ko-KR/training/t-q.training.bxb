@@ -1,4 +1,4 @@
 train (t-qf48xbwyqvvrvta2cwjtrambx) {
   utterance ("[g:httpCall] (다음주)[v:time.DateTimeExpression] 메뉴 (알려줘)[v:find:findby]")
-  last-modified (1624180060923)
+  last-modified (1624199324935)
 }

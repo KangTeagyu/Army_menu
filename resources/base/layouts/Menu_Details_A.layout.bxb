@@ -9,15 +9,17 @@ layout-macro-def (menu_details_A) {
     content {
       section {
         content {
+          
           title-area {
             halign (Center)
             slot1 {
               text {
-                value ("#{value(results.date)}")
+                value ("#{value(results.date)}\n(#{value(results.weekday)})")
                 style (Title_M)
                 
               }
             }
+            
             slot2 {
             
                 paragraph {
@@ -30,7 +32,9 @@ layout-macro-def (menu_details_A) {
            
             divider
               single-line{
+                
                 text {
+                  
                   value ("아침 메뉴입니다.\n")
                   style (Title_M)
                 }

@@ -1,5 +1,5 @@
 capsule {
-  id (inha_bixby.armymenu)
+  id (playground.armymenu)
   version (0.1.0)
   format (3)
   targets {
@@ -23,9 +23,11 @@ capsule {
     }
   }
    
+
+   
   store-sections{
+    section (FoodAndDrink)
     section (ArtAndLifestyle)
-    section (EducationAndReference)
   }
 
   runtime-version(8)

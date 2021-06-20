@@ -1,5 +1,5 @@
 template-macro-def (no_result) {
   content {
-    template("현재 식단 정보가 제공되고 있지 않습니다.")
+    template("현재 국방부에서 식단 정보를 제공하고 있지 않은 부대입니다. \n 다른 부대를 선택해주시기 바랍니다.")
   }
 }

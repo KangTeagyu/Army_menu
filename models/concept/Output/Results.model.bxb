@@ -48,5 +48,9 @@ structure (Results) {
   type (Cake)
   min (Optional) max (Many)
 }
+  property (weekday) {
+  type (weekday)
+  min (Optional) max (Many)
+}
 
 }

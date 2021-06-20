@@ -13,7 +13,7 @@ layout-macro-def (menu_details_B) {
             halign (Center)
             slot1 {
               text {
-                value ("#{value(results.date)}")
+                value ("#{value(results.date)}\n(#{value(results.weekday)})")
                 style (Title_M)
                 
               }
