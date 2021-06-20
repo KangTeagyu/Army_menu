@@ -1,3 +1,4 @@
-# Findpet_BixbyCapsule
-유기견 보호소 빅스비 캡슐입니다.    
-# Army_menu
+  # Army_menu
+
+본 캡슐은 군인들을 위한 캡슐입니다.
+본 캡슐을 활용하여 식단을 조회할 수 있습니다.

@@ -1,4 +1,4 @@
 train (t-0ujdo16rs61aruzcut43pq6e4) {
-  utterance ([g:httpCall] 찾아줘)
-  last-modified (1624100213052)
+  utterance ("[g:httpCall] (찾아줘)[v:find:findby]")
+  last-modified (1624163313273)
 }

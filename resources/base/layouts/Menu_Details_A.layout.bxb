@@ -21,7 +21,7 @@ layout-macro-def (menu_details_A) {
             slot2 {
             
                 paragraph {
-                  value ("식사 맛있게 하십시오!")
+                  value ("식사 맛있게 하세요!")
                   style (Title_XS)
                 }
               

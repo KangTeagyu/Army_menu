@@ -1,0 +1,4 @@
+train (t-iqf5qnvvt13q4w4anfv8vqkst) {
+  utterance ("[g:httpCall] (저녁)[v:Select_Time:Select_Dinr] (알려줘)[v:find:findby]")
+  last-modified (1624163481154)
+}

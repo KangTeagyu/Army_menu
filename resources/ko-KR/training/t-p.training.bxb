@@ -1,0 +1,4 @@
+train (t-pu0y2q7hk7ok9judyaxs1vy2z) {
+  utterance ("[g:httpCall] 오늘 밥 (알려줘)[v:find:findby]")
+  last-modified (1624163386457)
+}

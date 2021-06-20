@@ -27,20 +27,19 @@ layout-macro-def (menu_details_L) {
               }
             }
           }
-          partitioned {
-            content {
+          divider
+             
+              
               for-each (results.lunc) {
                 as (lunc) {
-                  single-line {
-                    text  {
+                  
+                    paragraph  {
                       value ("#{value(lunc)}")
-                      style (Detail_L)
+                      style (Detail_M)
                     }
-                  }
+                  
                 }
               }
-            }
-          }
         }
       }
     }

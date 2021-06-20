@@ -1,0 +1,4 @@
+train (t-ow2ttpfn84b68gt8p1nxt0shz) {
+  utterance ("[g:httpCall] (조식)[v:Select_Time:Select_Brst] (알려줘)[v:find:findby]")
+  last-modified (1624163534651)
+}

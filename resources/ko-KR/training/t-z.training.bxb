@@ -1,0 +1,8 @@
+train (t-ztpybhvdrx28umvfilgc5o5q6) {
+  utterance ("[g:httpCall] (점심)[v:Select_Time:Select_Lunc] (알려줘)[v:find:findby]")
+  last-modified (1624163694697)
+}
+train (t-zliut1lwcoq0mwqy4uqrsemgg) {
+  utterance ("[g:httpCall] (아침)[v:Select_Time:Select_Brst] (찾아줘)[v:find:findby]")
+  last-modified (1624163810417)
+}

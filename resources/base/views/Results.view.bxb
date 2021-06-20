@@ -1,8 +1,9 @@
 result-view {
   // This view is used to show the SpaceResort details when the user select a space resort from a summary list. This follows the design paradigm to go from Summary to Details
-  match {
-    Results (results)
+  match : Results (results){
+     from-output:httpCall(action)
   }
+  
   message{
     template ("식사 맛있게 하십시오."){
       speech("식사 맛있게 하십시오.")}
@@ -20,7 +21,7 @@ result-view {
         }
       }
      }else-if (size(results) == 1) { //하루일때  아,점,저 혹은 모든 메뉴
-       if(results.select_Time == 'Select_Brst'){
+     if(action.select_Time == 'Select_Brst'){
         layout{
           layout-macro (menu_details_B) {
             param (results) {
@@ -29,7 +30,7 @@ result-view {
                   }
                   }
                 }
-        else-if(results.select_Time == 'Select_Lunc'){
+      else-if(action.select_Time == 'Select_Lunc'){
         layout{
           layout-macro (menu_details_L) {
             param (results) {
@@ -38,7 +39,7 @@ result-view {
                   }
                   }
                 }
-        else-if(results.select_Time == 'Select_Dinr'){
+      else-if(action.select_Time == 'Select_Dinr'){
         layout{
           layout-macro (menu_details_D) {
             param (results) {
@@ -47,7 +48,7 @@ result-view {
                   }
                   }
                 }
-        else-if(!exists(results.select_Time)){
+      else-if(!exists(action.select_Time)){
         layout{
           layout-macro (menu_details_A) {
             param (results) {

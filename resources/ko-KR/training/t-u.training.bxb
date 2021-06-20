@@ -1,5 +1,0 @@
-train (t-u4wsk04go6a4e9aiblj5rsxvt) {
-  utterance ("[g:httpCall] 내일 (점심)[v:Select_Time:Select_Lunc] 알려줘")
-  plan (Y2BhkMwoKSlITszJ0Ussyq3MTc0r1QtKLS7NKSlmkMKUAok4A0WwyTkCGfF5pbkMsphywak5qckl8SGZuakMzAyMDExAkgFIgyAEMAFZQDEA)
-  last-modified (1624101181316)
-}

@@ -22,26 +22,25 @@ layout-macro-def (menu_details_D) {
             slot2 {
               single-line {
                 text {
-                  value ("저녁메뉴 입니다.")
+                  value ("저녁 메뉴입니다.")
                   style (Title_XS)
                 }
               }
             }
           }
-          partitioned {
-            content {
-              for-each (results.dinr) {
-                as (dinr) {
-                  single-line {
-                    text  {
-                      value ("#{value(dinr)}")
-                      style (Detail_L)
-                    }
+           divider
+              
+              
+               for-each (results.dinr) {
+                  as (dinr) {
+                    
+                      paragraph {
+                        value ("#{value(dinr)}")
+                        style (Detail_M)
+                      }
+                  
                   }
                 }
-              }
-            }
-          }
         }
       }
     }

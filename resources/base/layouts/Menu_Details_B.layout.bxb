@@ -8,38 +8,36 @@ layout-macro-def (menu_details_B) {
 
     content {
       section {
-        content { title-area {
+        content { 
+          title-area {
             halign (Center)
             slot1 {
               text {
                 value ("#{value(results.date)}")
-                style (Title_L)
+                style (Title_M)
                 
               }
             }
             slot2 {
-              single-line {
-                text {
-                  value ("아침 메뉴입니다.")
+            
+                paragraph {
+                  value ("아침 메뉴 입니다.")
                   style (Title_XS)
                 }
-              }
+              
             }
           }
-          partitioned {
-            content {
+        divider
+            
               for-each (results.brst) {
                 as (brst) {
-                  single-line {
-                    text  {
+                  
+                    paragraph  {
                       value ("#{value(brst)}")
-                      style (Detail_L)
+                      style (Detail_M)
                     }
                   }
                 }
-              }
-            }
-          }
         }
       }
     }
