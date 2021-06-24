@@ -34,7 +34,7 @@ layout-macro-def (menu_highlight) {
           }
           
       }
-      image-url ("/images/1.jpg")
+      image-url ("/images/1.jpg") 
       on-click {
         view-for (results)
       }    

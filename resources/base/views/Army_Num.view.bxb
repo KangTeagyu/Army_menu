@@ -1,0 +1,27 @@
+input-view{
+    match: Army_num(this){
+        to-input: httpCall
+    }
+ message{
+  template ("소속하신 부대를 선택해주세요. 부대 번호를 모를시에는 행정반에 문의해주세요.")
+ }
+ render{
+  selection-of (this){
+      where-each (this){
+            cell-card {
+                      slot2 {
+                        content {
+                          primary {
+                            template ("#{value (this)} 부대")
+                            
+                          }
+                        //  secondary {
+                        //     template ("부대 번호를 모를시에는 행정반에 문의해주세요.")
+                        //   }
+                        }
+        }
+      }
+    }
+  }
+}
+}

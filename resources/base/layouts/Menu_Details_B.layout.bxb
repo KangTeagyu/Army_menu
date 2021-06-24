@@ -9,26 +9,60 @@ layout-macro-def (menu_details_B) {
     content {
       section {
         content { 
-          title-area {
-            halign (Center)
-            slot1 {
-              text {
-                value ("#{value(results.date)}\n(#{value(results.weekday)})")
-                style (Title_M)
-                
-              }
-            }
-            slot2 {
-            
-                paragraph {
-                  value ("아침 메뉴 입니다.")
-                  style (Title_XS)
+          image-card {
+            aspect-ratio (21:9)
+            image-object-position(Top)
+              image-url ("/images/results11.jpg")
+                title-area {
+                  halign(Center)
+                    slot1 {
+                      text {
+                        value ("#{value(results.date)}\n(#{value(results.weekday)})")
+                          style (Title_M)
+                           }
+                      }
+                    slot2 {
+                      single-line {
+                        text {
+                          value ("식사 맛있게 하십시오!") 
+                      style (Detail_M)
+                          }
+                        }
+                      }
                 }
-              
-            }
-          }
-        divider
+              }
+          // title-area {
+          //   halign (Center)
+          //   slot1 {
+          //     text {
+          //       value ("#{value(results.date)}\n(#{value(results.weekday)})")
+          //       style (Title_M)
+                
+          //     }
+          //   }
+          //   slot2 {
             
+          //       paragraph {
+          //         value ("아침 메뉴 입니다.")
+          //         style (Title_XS)
+          //       }
+              
+          //   }
+          // }
+        divider
+            single-line{
+                image {
+                  style(Detail_M)
+                url("/images/morning.png")
+                    }
+                    spacer {
+                     size(Medium)
+                     }
+                text {
+                  value ("아침 메뉴입니다.\n")
+                  style (Title_M)
+                }
+              }
               for-each (results.brst) {
                 as (brst) {
                   

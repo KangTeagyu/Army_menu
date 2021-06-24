@@ -10,26 +10,61 @@ layout-macro-def (menu_details_D) {
 
       section {
         content {
-          title-area {
-            halign (Center)
-            slot1 {
-              text {
-                value ("#{value(results.date)}\n(#{value(results.weekday)})")
-                style (Title_L)
-                
-              }
-            }
-            slot2 {
-              single-line {
-                text {
-                  value ("저녁 메뉴입니다.")
-                  style (Title_XS)
+          image-card {
+            aspect-ratio (21:9)
+            image-object-position(Center)
+              image-url ("/images/rokmc22.jpg")
+                title-area {
+                  halign(Center)
+                    slot1 {
+                      text {
+                        value ("#{value(results.date)}\n(#{value(results.weekday)})")
+                          style (Title_M)
+                           }
+                      }
+                    slot2 {
+                      single-line {
+                        text {
+                          value ("식사 맛있게 하십시오!") 
+                      style (Detail_M)
+                          }
+                        }
+                      }
                 }
               }
-            }
-          }
+          // title-area {
+          //   halign (Center)
+          //   slot1 {
+          //     text {
+          //       value ("#{value(results.date)}\n(#{value(results.weekday)})")
+          //       style (Title_L)
+                
+          //     }
+          //   }
+          //   slot2 {
+          //     single-line {
+          //       text {
+          //         value ("저녁 메뉴입니다.")
+          //         style (Title_XS)
+          //       }
+          //     }
+          //   }
+          // }
            divider
-              
+                single-line{
+                  image {
+                  style(Detail_M)
+                   url("/images/moon.png")
+                    }
+                  spacer {
+                     size(Medium)
+                     }
+                text {
+                  value ("저녁 메뉴입니다.\n")
+                  style (Title_M)
+                }
+              }
+              spacer
               
                for-each (results.dinr) {
                   as (dinr) {

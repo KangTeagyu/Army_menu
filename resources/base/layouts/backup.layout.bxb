@@ -1,0 +1,118 @@
+// layout-macro-def (menu_details_A) {
+//   params {
+//     param (results) {
+//       type (Results)
+//       min (Required) max (Many)
+//     }
+//   }
+
+//     content {
+//       section {
+//         content {
+//           image-card {
+//             aspect-ratio (4:3)
+//               image-url ("/images/results11.jpg")
+//                 title-area {
+//                   halign (Start)
+//                     slot1 {
+//                       text {
+//                         value ("#{value(results.date)}\n(#{value(results.weekday)})")
+//                           style (Title_M)
+//                            }
+//                       }
+//                     slot2 {
+//                       single-line {
+//                         text {
+//                           value ("식사 맛있게 하십시오!") 
+//                       style (Detail_M)
+//                           }
+//                         }
+//                       }
+//                 }
+//               }
+//           title-area {
+//             halign (Center)
+//             slot1 {
+//               text {
+//                 value ("#{value(results.date)}\n(#{value(results.weekday)})")
+//                 style (Title_M)
+                
+//               }
+//             }
+            
+//             slot2 {
+            
+//                 paragraph {
+//                   value ("식사 맛있게 하세요!")
+//                   style (Title_XS)
+//                 }
+              
+//             }
+//           }
+           
+//             divider
+//               single-line{
+//                 text {
+//                   value ("아침 메뉴입니다.\n")
+//                   style (Title_M)
+//                 }
+//               }
+//               single-line{
+//                 text {}
+//                   value (" ")
+//                   style (Title_M)
+//                 }
+//               }
+//               for-each (results.brst) {
+//                 as (brst) {
+                  
+//                     paragraph  {
+//                       value ("#{value(brst)}")
+//                       style (Detail_M)
+//                     }
+//                   }
+//                 }
+              
+//               divider
+//                single-line{
+//                 text {
+//                   value ("점심 메뉴입니다.\n")
+//                   style (Title_M)
+//                 }
+//               }
+              
+//               for-each (results.lunc) {
+//                 as (lunc) {
+                  
+//                     paragraph  {
+//                       value ("#{value(lunc)}")
+//                       style (Detail_M)
+//                     }
+                  
+//                 }
+//               }
+//               divider
+//                 single-line{
+//                 text {
+//                   value ("저녁 메뉴입니다.\n")
+//                   style (Title_M)
+//                 }
+//               }
+              
+//                for-each (results.dinr) {
+//                   as (dinr) {
+                    
+//                       paragraph {
+//                         value ("#{value(dinr)}")
+//                         style (Detail_M)
+//                       }
+                  
+//                   }
+//                 }
+            
+          
+          
+//         }
+//       }
+//         }
+// }

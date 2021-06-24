@@ -1,5 +1,5 @@
 enum (Select_Time) {
-  description (__DESCRIPTION__)
+  description (아,점, 저 선택)
   symbol (Select_Brst)
   symbol (Select_Lunc)
   symbol (Select_Dinr)

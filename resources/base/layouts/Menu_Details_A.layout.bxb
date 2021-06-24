@@ -9,36 +9,45 @@ layout-macro-def (menu_details_A) {
     content {
       section {
         content {
-          
-          title-area {
-            halign (Center)
-            slot1 {
-              text {
-                value ("#{value(results.date)}\n(#{value(results.weekday)})")
-                style (Title_M)
-                
-              }
-            }
-            
-            slot2 {
-            
-                paragraph {
-                  value ("식사 맛있게 하세요!")
-                  style (Title_XS)
+          image-card {
+            aspect-ratio (21:9)
+            image-object-position(Top)
+              image-url ("/images/results11.jpg")
+                title-area {
+                  halign(Center)
+                    slot1 {
+                      text {
+                        value ("#{value(results.date)}\n(#{value(results.weekday)})")
+                          style (Title_M)
+                           }
+                      }
+                    slot2 {
+                      single-line {
+                        text {
+                          value ("식사 맛있게 하십시오!") 
+                      style (Detail_M)
+                          }
+                        }
+                      }
                 }
-              
-            }
-          }
-           
+              }
+                  
             divider
               single-line{
-                
+                image {
+                  style(Detail_M)
+                url("/images/morning.png")
+                    }
+                    spacer {
+                     size(Medium)
+                     }
                 text {
-                  
                   value ("아침 메뉴입니다.\n")
                   style (Title_M)
                 }
               }
+              spacer
+             
               for-each (results.brst) {
                 as (brst) {
                   
@@ -51,12 +60,19 @@ layout-macro-def (menu_details_A) {
               
               divider
                single-line{
+                 image {
+                  style(Detail_M)
+                url("/images/sun.png")
+                    }
+                  spacer {
+                     size(Medium)
+                     }
                 text {
                   value ("점심 메뉴입니다.\n")
                   style (Title_M)
                 }
               }
-              
+              spacer
               for-each (results.lunc) {
                 as (lunc) {
                   
@@ -69,12 +85,19 @@ layout-macro-def (menu_details_A) {
               }
               divider
                 single-line{
+                  image {
+                  style(Detail_M)
+                   url("/images/moon.png")
+                    }
+                  spacer {
+                     size(Medium)
+                     }
                 text {
                   value ("저녁 메뉴입니다.\n")
                   style (Title_M)
                 }
               }
-              
+              spacer
                for-each (results.dinr) {
                   as (dinr) {
                     
@@ -90,8 +113,5 @@ layout-macro-def (menu_details_A) {
           
         }
       }
-
-
-    }
-
+        }
 }
