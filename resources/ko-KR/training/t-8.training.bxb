@@ -1,0 +1,76 @@
+train (t-8rwfljgi89sx12f2zpa3xr0fm) {
+  utterance ("[g:httpCall] (5021부대)[v:Army_num:5021] (오늘)[v:time.DateTimeExpression]  (아침)[v:Select_Time:Select_Brst] (알려줘)[v:find:findby]")
+  last-modified (1624689799052)
+}
+train (t-8kilogfhtr40gbq0y98oioe7w) {
+  utterance ("[g:httpCall] (5021부대)[v:Army_num:5021] (오늘)[v:time.DateTimeExpression]  (저녁)[v:Select_Time:Select_Dinr] (알려줘)[v:find:findby]")
+  last-modified (1624689977917)
+}
+train (t-80j7si3l0b5bwujgo2ktl61si) {
+  utterance ("[g:httpCall] (3296부대)[v:Army_num:3296] (내일)[v:time.DateTimeExpression] (아침)[v:Select_Time:Select_Brst] (알려줘)[v:find:findby]")
+  last-modified (1624690049561)
+}
+train (t-8828vjifcmk4pcbwc00nwnphp) {
+  utterance ("[g:httpCall] (6335부대)[v:Army_num:6335] (내일)[v:time.DateTimeExpression] (점심)[v:Select_Time:Select_Lunc] (알려줘)[v:find:findby]")
+  last-modified (1624690115191)
+}
+train (t-8ag30w5r03nf1b4uzz9s1jf0v) {
+  utterance ("[g:httpCall] (1691부대)[v:Army_num:1691] (내일모레)[v:time.DateTimeExpression] (아침)[v:Select_Time:Select_Brst] (알려줘)[v:find:findby]")
+  last-modified (1624690347536)
+}
+train (t-8tjlxa7x3tc2ctqrcprjg6qqo) {
+  utterance ("[g:httpCall] (8902부대)[v:Army_num:8902] (내일모레)[v:time.DateTimeExpression] (저녁)[v:Select_Time:Select_Dinr] (알려줘)[v:find:findby]")
+  last-modified (1624690562271)
+}
+train (t-82v9wlzxppo6rb05av10kb9he) {
+  utterance ("[g:httpCall] (6335부대)[v:Army_num:6335] (어제)[v:time.DateTimeExpression] (아침)[v:Select_Time:Select_Brst] (알려줘)[v:find:findby]")
+  last-modified (1624690568250)
+}
+train (t-8vm12ov3yshrwqu6to86dmtm6) {
+  utterance ("[g:httpCall] (6282부대)[v:Army_num:6282] (어제)[v:time.DateTimeExpression] (저녁)[v:Select_Time:Select_Dinr] (알려줘)[v:find:findby]")
+  last-modified (1624690765197)
+}
+train (t-8pmt9kjmvsunf6nh8w9a00zc7) {
+  utterance ("[g:httpCall] (8902부대)[v:Army_num:8902] (다음주)[v:time.DateTimeExpression] (저녁)[v:Select_Time:Select_Dinr] (알려줘)[v:find:findby]")
+  last-modified (1624691099507)
+}
+train (t-8epgv8ym4s6f1rwefzkwvox2i) {
+  utterance ("[g:httpCall] (8902부대)[v:Army_num:8902] (이번주)[v:time.DateTimeExpression] (저녁)[v:Select_Time:Select_Dinr] (알려줘)[v:find:findby]")
+  last-modified (1624691368223)
+}
+train (t-8yedcmt3csao07kjoj08n1m7x) {
+  utterance ("[g:httpCall] (8623부대)[v:Army_num:8623] (이번달)[v:time.DateTimeExpression] (아침)[v:Select_Time:Select_Brst] (알려줘)[v:find:findby]")
+  last-modified (1624691451773)
+}
+train (t-8d5ous8mw6zjfck337w0niuw4) {
+  utterance ("[g:httpCall] (6176부대)[v:Army_num:6176] (저저번주)[v:time.DateTimeExpression] (아침)[v:Select_Time:Select_Brst] (알려줘)[v:find:findby]")
+  last-modified (1624692252489)
+}
+train (t-8umypmo9u53nqsl5jei119smx) {
+  utterance ("[g:httpCall] (6335부대)[v:Army_num:6335] (저저번주)[v:time.DateTimeExpression] (점심)[v:Select_Time:Select_Lunc] (알려줘)[v:find:findby]")
+  last-modified (1624692270423)
+}
+train (t-8riixfctdek1xvwq0y7528lki) {
+  utterance ("[g:httpCall] (8623부대)[v:Army_num:8623] (3일뒤)[v:time.DateTimeExpression] (점심)[v:Select_Time:Select_Lunc] (알려줘)[v:find:findby]")
+  last-modified (1624692616691)
+}
+train (t-8htmmppr2jy5d3qvhb76cskcm) {
+  utterance ("[g:httpCall] (7369부대)[v:Army_num:7369] (3일뒤)[v:time.DateTimeExpression] (저녁)[v:Select_Time:Select_Dinr] (알려줘)[v:find:findby]")
+  last-modified (1624692694194)
+}
+train (t-8nzlg341sh8mmri7j1yuqn430) {
+  utterance ("[g:httpCall] (1691부대)[v:Army_num:1691] (오늘)[v:time.DateTimeExpression] (알려줘)[v:find:findby]")
+  last-modified (1624694149143)
+}
+train (t-8ffdhp2jfpunaviymi8nk0i2p) {
+  utterance ("[g:httpCall] (9030부대)[v:Army_num:9030] (모레)[v:time.DateTimeExpression] (알려줘)[v:find:findby]")
+  last-modified (1624694424230)
+}
+train (t-8xfud62kstm60k634r122epl1) {
+  utterance ("[g:httpCall] (3296부대)[v:Army_num:3296] (이번달)[v:time.DateTimeExpression] (알려줘)[v:find:findby]")
+  last-modified (1624694873369)
+}
+train (t-8i2emcox6zxxrzifivmu60lv5) {
+  utterance ("[g:httpCall] (7652부대)[v:Army_num:7652] (이번달)[v:time.DateTimeExpression] (알려줘)[v:find:findby]")
+  last-modified (1624694879326)
+}

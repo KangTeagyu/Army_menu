@@ -6,3 +6,119 @@ train (t-xx0uonhm6y3ubiwt11abof4mv) {
   utterance ("[g:httpCall] (내일)[v:time.DateTimeExpression] 메뉴 (알려줘)[v:find:findby]")
   last-modified (1624178774543)
 }
+train (t-xwr9t035waa60yeobkd18sul3) {
+  utterance ("[g:httpCall] (8623부대)[v:Army_num:8623] (점심)[v:Select_Time:Select_Lunc] (알려줘)[v:find:findby]")
+  last-modified (1624689490957)
+}
+train (t-x39goa88ytgvo6dg4cxwub9wj) {
+  utterance ("[g:httpCall] (7369부대)[v:Army_num:7369] (오늘)[v:time.DateTimeExpression]  (아침)[v:Select_Time:Select_Brst] (알려줘)[v:find:findby]")
+  last-modified (1624689822893)
+}
+train (t-xlq7rzdp4tnbu7aki7o1zewl4) {
+  utterance ("[g:httpCall] (3389부대)[v:Army_num:3389] (오늘)[v:time.DateTimeExpression]  (점심)[v:Select_Time:Select_Lunc] (알려줘)[v:find:findby]")
+  last-modified (1624689852697)
+}
+train (t-x93pxav3k28nuj0sc2p82cpc5) {
+  utterance ("[g:httpCall] (7652부대)[v:Army_num:7652] (오늘)[v:time.DateTimeExpression]  (저녁)[v:Select_Time:Select_Dinr] (알려줘)[v:find:findby]")
+  last-modified (1624689965977)
+}
+train (t-xgjc4hg5j2erg899ewv4s4dpn) {
+  utterance ("[g:httpCall] (5021부대)[v:Army_num:5021] (내일)[v:time.DateTimeExpression] (아침)[v:Select_Time:Select_Brst] (알려줘)[v:find:findby]")
+  last-modified (1624690067477)
+}
+train (t-x58mth1e880los20way2umtey) {
+  utterance ("[g:httpCall] (3296부대)[v:Army_num:3296] (내일)[v:time.DateTimeExpression] (점심)[v:Select_Time:Select_Lunc] (알려줘)[v:find:findby]")
+  last-modified (1624690139052)
+}
+train (t-xmj51lqx4h396unmgvpccb0lq) {
+  utterance ("[g:httpCall] (6282부대)[v:Army_num:6282] (내일모레)[v:time.DateTimeExpression] (아침)[v:Select_Time:Select_Brst] (알려줘)[v:find:findby]")
+  last-modified (1624690311814)
+}
+train (t-xzc0oejby8vwgdx8or9zrpqp5) {
+  utterance ("[g:httpCall] (7652부대)[v:Army_num:7652] (어제)[v:time.DateTimeExpression] (점심)[v:Select_Time:Select_Lunc] (알려줘)[v:find:findby]")
+  last-modified (1624690687626)
+}
+train (t-xieryqmiwk6vd70fzm0sboooz) {
+  utterance ("[g:httpCall] (8623부대)[v:Army_num:8623] (어제)[v:time.DateTimeExpression] (점심)[v:Select_Time:Select_Lunc] (알려줘)[v:find:findby]")
+  last-modified (1624690735380)
+}
+train (t-xzo3yvjpmjlj5cxx6fkvjupkc) {
+  utterance ("[g:httpCall] (2171부대)[v:Army_num:2171] (다음주)[v:time.DateTimeExpression] (점심)[v:Select_Time:Select_Lunc] (알려줘)[v:find:findby]")
+  last-modified (1624690938358)
+}
+train (t-x9wbq6lp7wpv6b42bil1dctdi) {
+  utterance ("[g:httpCall] (9030부대)[v:Army_num:9030] (다음주)[v:time.DateTimeExpression] (점심)[v:Select_Time:Select_Lunc] (알려줘)[v:find:findby]")
+  last-modified (1624690986072)
+}
+train (t-xx3z09q8wyufxul5cbmsy1v99) {
+  utterance ("[g:httpCall] (6176부대)[v:Army_num:6176] (다음주)[v:time.DateTimeExpression] (점심)[v:Select_Time:Select_Lunc] (알려줘)[v:find:findby]")
+  last-modified (1624690998004)
+}
+train (t-xqa5quv61t0naupxh5fx7xzq8) {
+  utterance ("[g:httpCall] (7652부대)[v:Army_num:7652] (이번주)[v:time.DateTimeExpression] (점심)[v:Select_Time:Select_Lunc] (알려줘)[v:find:findby]")
+  last-modified (1624691224864)
+}
+train (t-x1iczubsg6dapf9piuzeicj9x) {
+  utterance ("[g:httpCall] (5021부대)[v:Army_num:5021] (이번달)[v:time.DateTimeExpression] (아침)[v:Select_Time:Select_Brst] (알려줘)[v:find:findby]")
+  last-modified (1624691416004)
+}
+train (t-x24blwscewune7wexjepd96nx) {
+  utterance ("[g:httpCall] (9030부대)[v:Army_num:9030] (이번달)[v:time.DateTimeExpression] (점심)[v:Select_Time:Select_Lunc] (알려줘)[v:find:findby]")
+  last-modified (1624691523489)
+}
+train (t-xqf7zds323cdl1g9330h28bxk) {
+  utterance ("[g:httpCall] (8902부대)[v:Army_num:8902] (이번달)[v:time.DateTimeExpression] (점심)[v:Select_Time:Select_Lunc] (알려줘)[v:find:findby]")
+  last-modified (1624691547399)
+}
+train (t-xg5zcknqqfu53bvxeh9l95xf7) {
+  utterance ("[g:httpCall] (7652부대)[v:Army_num:7652] (이번달)[v:time.DateTimeExpression] (저녁)[v:Select_Time:Select_Dinr] (알려줘)[v:find:findby]")
+  last-modified (1624691583207)
+}
+train (t-xtb9gbco9qt9q6yd1xqa00vdj) {
+  utterance ("[g:httpCall] (2171부대)[v:Army_num:2171] (다다음주)[v:time.DateTimeExpression] (점심)[v:Select_Time:Select_Lunc] (알려줘)[v:find:findby]")
+  last-modified (1624691744655)
+}
+train (t-x2581uyw5xnn5kksb7qennj81) {
+  utterance ("[g:httpCall] (7369부대)[v:Army_num:7369] (다다음주)[v:time.DateTimeExpression] (저녁)[v:Select_Time:Select_Dinr] (알려줘)[v:find:findby]")
+  last-modified (1624691888006)
+}
+train (t-xfxdofqk9jp7qyk8qyb6rn310) {
+  utterance ("[g:httpCall] (7652부대)[v:Army_num:7652] (저번주)[v:time.DateTimeExpression] (아침)[v:Select_Time:Select_Brst] (알려줘)[v:find:findby]")
+  last-modified (1624691941891)
+}
+train (t-xjpv8any2766tn7j4xck03hpy) {
+  utterance ("[g:httpCall] (3389부대)[v:Army_num:3389] (저저번주)[v:time.DateTimeExpression] (점심)[v:Select_Time:Select_Lunc] (알려줘)[v:find:findby]")
+  last-modified (1624692276354)
+}
+train (t-xr8d4sau2jb1a9q92h4872091) {
+  utterance ("[g:httpCall] (6335부대)[v:Army_num:6335] (저저번주)[v:time.DateTimeExpression] (저녁)[v:Select_Time:Select_Dinr] (알려줘)[v:find:findby]")
+  last-modified (1624692359974)
+}
+train (t-xo458rbanctii36w9e2zan1p7) {
+  utterance ("[g:httpCall] (3389부대)[v:Army_num:3389] (저저번주)[v:time.DateTimeExpression] (저녁)[v:Select_Time:Select_Dinr] (알려줘)[v:find:findby]")
+  last-modified (1624692365941)
+}
+train (t-xmydg6xyw6balgisjdg0ta8c1) {
+  utterance ("[g:httpCall] (3296부대)[v:Army_num:3296] (3일뒤)[v:time.DateTimeExpression] (점심)[v:Select_Time:Select_Lunc] (알려줘)[v:find:findby]")
+  last-modified (1624692562920)
+}
+train (t-xmy1yplesb8xsjfs3im1chbye) {
+  utterance ("[g:httpCall] (5322부대)[v:Army_num:5322] (3일뒤)[v:time.DateTimeExpression] (점심)[v:Select_Time:Select_Lunc] (알려줘)[v:find:findby]")
+  last-modified (1624692574885)
+}
+train (t-xkmbuzvk28jgzimvjnyme1hny) {
+  utterance ("[g:httpCall] (6335부대)[v:Army_num:6335] (오늘)[v:time.DateTimeExpression] (알려줘)[v:find:findby]")
+  last-modified (1624694095263)
+}
+train (t-x6ghrpeccd3qv1zr7wdjux0r0) {
+  utterance ("[g:httpCall] (2171부대)[v:Army_num:2171] (내일모레)[v:time.DateTimeExpression] (알려줘)[v:find:findby]")
+  last-modified (1624694286720)
+}
+train (t-xy2bwjq9tnmzza5brrs5tqix5) {
+  utterance ("[g:httpCall] (육군훈련소)[v:Army_num:ATC] (이번달)[v:time.DateTimeExpression] (알려줘)[v:find:findby]")
+  last-modified (1624694897251)
+}
+train (t-x916xhkodkano68vbgbml4b7d) {
+  utterance ("[g:httpCall] (육군훈련소)[v:Army_num:ATC] (알려줘)[v:find:findby]")
+  last-modified (1624695415289)
+}

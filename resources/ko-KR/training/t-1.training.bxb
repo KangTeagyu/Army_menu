@@ -1,0 +1,80 @@
+train (t-1f9ow62q8s48fmewn1ecsew26) {
+  utterance ("[g:httpCall] (5021부대)[v:Army_num:5021] (점심)[v:Select_Time:Select_Lunc] (알려줘)[v:find:findby]")
+  last-modified (1624689427782)
+}
+train (t-1gj1ihprlsze6w2vnb8o559ua) {
+  utterance ("[g:httpCall] (6176부대)[v:Army_num:6176] (점심)[v:Select_Time:Select_Lunc] (알려줘)[v:find:findby]")
+  last-modified (1624689480457)
+}
+train (t-1s6iyalmvwmwx7tq8p6uwam2p) {
+  utterance ("[g:httpCall] (5021부대)[v:Army_num:5021] (저녁)[v:Select_Time:Select_Dinr] (알려줘)[v:find:findby]")
+  last-modified (1624689585848)
+}
+train (t-1zrgy41amp3cfq1db0zoomvn8) {
+  utterance ("[g:httpCall] (6282부대)[v:Army_num:6282] (오늘)[v:time.DateTimeExpression]  (아침)[v:Select_Time:Select_Brst] (알려줘)[v:find:findby]")
+  last-modified (1624689775206)
+}
+train (t-1w13sewkhjdufj201x00arm2s) {
+  utterance ("[g:httpCall] (1691부대)[v:Army_num:1691] (오늘)[v:time.DateTimeExpression]  (저녁)[v:Select_Time:Select_Dinr] (알려줘)[v:find:findby]")
+  last-modified (1624689989874)
+}
+train (t-1ai7c6hqltxe42vp1urz6ovyp) {
+  utterance ("[g:httpCall] (7652부대)[v:Army_num:7652] (내일)[v:time.DateTimeExpression] (아침)[v:Select_Time:Select_Brst] (알려줘)[v:find:findby]")
+  last-modified (1624690055489)
+}
+train (t-1n6mnpm1yvapqtnpkvzm5jxhm) {
+  utterance ("[g:httpCall] (2171부대)[v:Army_num:2171] (다음주)[v:time.DateTimeExpression] (아침)[v:Select_Time:Select_Brst] (알려줘)[v:find:findby]")
+  last-modified (1624690848782)
+}
+train (t-1wk5u99lf1yz4aplp8k6m0j8q) {
+  utterance ("[g:httpCall] (5322부대)[v:Army_num:5322] (이번달)[v:time.DateTimeExpression] (아침)[v:Select_Time:Select_Brst] (알려줘)[v:find:findby]")
+  last-modified (1624691410061)
+}
+train (t-1h79rgfjswg4igtl6mbfib9fa) {
+  utterance ("[g:httpCall] (1691부대)[v:Army_num:1691] (이번달)[v:time.DateTimeExpression] (아침)[v:Select_Time:Select_Brst] (알려줘)[v:find:findby]")
+  last-modified (1624691427913)
+}
+train (t-14oz6nknqi8r9lg9qjpssp9uf) {
+  utterance ("[g:httpCall] (6176부대)[v:Army_num:6176] (다다음주)[v:time.DateTimeExpression] (아침)[v:Select_Time:Select_Brst] (알려줘)[v:find:findby]")
+  last-modified (1624691714782)
+}
+train (t-1dxg8aagimxfiuhpsnqdcmogf) {
+  utterance ("[g:httpCall] (7652부대)[v:Army_num:7652] (저저번주)[v:time.DateTimeExpression] (점심)[v:Select_Time:Select_Lunc] (알려줘)[v:find:findby]")
+  last-modified (1624692300162)
+}
+train (t-1tiuxcsbr8yk4flmuec3ki6va) {
+  utterance ("[g:httpCall] (5021부대)[v:Army_num:5021] (저저번주)[v:time.DateTimeExpression] (저녁)[v:Select_Time:Select_Dinr] (알려줘)[v:find:findby]")
+  last-modified (1624692401746)
+}
+train (t-1ia7j558kqo7stdgg7vbq7j9j) {
+  utterance ("[g:httpCall] (1691부대)[v:Army_num:1691] (3일뒤)[v:time.DateTimeExpression] (아침)[v:Select_Time:Select_Brst] (알려줘)[v:find:findby]")
+  last-modified (1624692503260)
+}
+train (t-11wtty10il2awno8mfor0tgr0) {
+  utterance ("[g:httpCall] (5021부대)[v:Army_num:5021] (3일뒤)[v:time.DateTimeExpression] (점심)[v:Select_Time:Select_Lunc] (알려줘)[v:find:findby]")
+  last-modified (1624692580842)
+}
+train (t-11yaiyy7oisllyvb8hep11fop) {
+  utterance ("[g:httpCall] (3296부대)[v:Army_num:3296] (3일뒤)[v:time.DateTimeExpression] (저녁)[v:Select_Time:Select_Dinr] (알려줘)[v:find:findby]")
+  last-modified (1624692652416)
+}
+train (t-1byzyv5sv1a7dl0xhh4vwiixd) {
+  utterance ("[g:httpCall] (3389부대)[v:Army_num:3389] (모레)[v:time.DateTimeExpression] (점심)[v:Select_Time:Select_Lunc] (알려줘)[v:find:findby]")
+  last-modified (1624692813849)
+}
+train (t-1kqb6h2sqoho0585xd9lzpsxg) {
+  utterance ("[g:httpCall] (6282부대)[v:Army_num:6282] (모레)[v:time.DateTimeExpression] (점심)[v:Select_Time:Select_Lunc] (알려줘)[v:find:findby]")
+  last-modified (1624692825779)
+}
+train (t-1cf3zb4655seb0wz4l4ldn815) {
+  utterance ("[g:httpCall] (3296부대)[v:Army_num:3296] (내일모레)[v:time.DateTimeExpression] (알려줘)[v:find:findby]")
+  last-modified (1624694298669)
+}
+train (t-1y9wev0va45x0bbxucvjtqdz9) {
+  utterance ("[g:httpCall] (2171부대)[v:Army_num:2171] (모레)[v:time.DateTimeExpression] (알려줘)[v:find:findby]")
+  last-modified (1624694376470)
+}
+train (t-14t0cqeux73v3f08br01h9483) {
+  utterance ("[g:httpCall] (7652부대)[v:Army_num:7652] (알려줘)[v:find:findby]")
+  last-modified (1624695397386)
+}

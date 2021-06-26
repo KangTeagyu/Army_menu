@@ -85,7 +85,7 @@ module.exports.function = function httpCall (army_num, find, date_input,select_T
   query: {
     'start' : Startday,
     'end': Endday,
-    'army' : 7369
+    'army' : army_num
   }
 };    
 

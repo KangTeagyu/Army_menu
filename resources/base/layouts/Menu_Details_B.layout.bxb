@@ -31,24 +31,7 @@ layout-macro-def (menu_details_B) {
                       }
                 }
               }
-          // title-area {
-          //   halign (Center)
-          //   slot1 {
-          //     text {
-          //       value ("#{value(results.date)}\n(#{value(results.weekday)})")
-          //       style (Title_M)
-                
-          //     }
-          //   }
-          //   slot2 {
-            
-          //       paragraph {
-          //         value ("아침 메뉴 입니다.")
-          //         style (Title_XS)
-          //       }
-              
-          //   }
-          // }
+          
         divider
             single-line{
                 image {
@@ -69,6 +52,34 @@ layout-macro-def (menu_details_B) {
                     paragraph  {
                       value ("#{value(brst)}")
                       style (Detail_M)
+                    }
+                  }
+                }
+                divider
+              
+         image-card {
+              image-url ("/images/armycard.png")
+              title-area {
+                  halign(Center)
+                    slot1 {
+                      text {
+                          value ("")
+                          style (Detail_M)
+                           }
+                      }
+                    slot2 {
+                      single-line {
+                        text {
+                          value ("") 
+                      style (Detail_M)
+                          }
+                        }
+                      }
+                }
+                on-click {
+                  url (https://data.mnd.go.kr/mbshome/mbs/data/)
+                 external-link-badge { 
+                  label (대한민국 국방부 공공데이터 포털)
                     }
                   }
                 }
