@@ -12,9 +12,11 @@ input-view{
                       slot2 {
                         content {
                           primary {
-                            template ("#{value (this)} 부대")
-                            
-                          }
+                            if( this == "ATC"){
+                              template ("육군훈련소")
+                            }else{
+                              template ("#{value (this)} 부대")
+                                 }
                         //  secondary {
                         //     template ("부대 번호를 모를시에는 행정반에 문의해주세요.")
                         //   }
@@ -23,5 +25,6 @@ input-view{
       }
     }
   }
+}
 }
 }

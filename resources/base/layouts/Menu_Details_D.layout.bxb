@@ -18,14 +18,14 @@ layout-macro-def (menu_details_D) {
                   halign(Center)
                     slot1 {
                       text {
-                        value ("#{value(results.date)}\n(#{value(results.weekday)})")
-                          style (Title_M)
+                         value ("#{value(results.date)}\n #{value(results.weekday)}")
+                          style (Title_S)
                            }
                       }
                     slot2 {
                       single-line {
                         text {
-                          value ("식사 맛있게 하십시오!") 
+                          value ("오늘 하루도 고생 많으셨습니다!") 
                       style (Detail_M)
                           }
                         }

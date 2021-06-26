@@ -1,6 +1,6 @@
 train (t-ut5t9vs4p8gg4c86o7tmdegsc) {
   utterance ("[g:httpCall] (내일)[v:time.DateTimeExpression] (아침)[v:Select_Time:Select_Brst] (알려줘)[v:find:findby]")
-  last-modified (1624508759618)
+  last-modified (1624676999414)
 }
 train (t-ukbf9nap1t8jeclkvvbiytrnn) {
   utterance ("[g:httpCall] (내일)[v:time.DateTimeExpression] (저녁)[v:Select_Time:Select_Dinr] (알려줘)[v:find:findby]")
