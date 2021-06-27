@@ -1,0 +1,18 @@
+capsule-info {
+  display-name (군식당)
+  developer-name (샌프란듀오)
+  icon-asset (images/icons/icon2.png)
+  description ("군생활을 하고 있는 당신을 위해 군부대 식단을 알려드립니다. \n 해당 캡슐을 실행 시키고 싶으시면 \"군식당에서\", \"군식단에서\",\"군대식당에서\",\"군대식단에서\"중 하나로 해당 캡슐을 실행시킬 수 있습니다.\n 군 보안법을 준수하기 위해 부대번호(급양대번호)로만 조회가 가능합니다.\n 추후 업데이트를 통해 부대명으로 검색 가능하게 하겠습니다.")
+  dispatch-name (군식당)
+  privacy-policy-url(https://docs.google.com/document/d/1aewKfogXjE1SnBwc44qwegjsVPNqyUsfn195Uf--jOg/edit?usp=sharing)
+   search-keywords {
+      keyword (군대식단)
+      keyword (군 식단표)
+      keyword (군식당)
+      keyword (군식단)
+      keyword (군대식당)
+      keyword (군대 식단표)
+    }
+  // Set your own image for your capsule's icon
+  // icon-asset (images/icons/bixby_launcher.png)
+}

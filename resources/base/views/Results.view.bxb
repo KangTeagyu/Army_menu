@@ -8,6 +8,7 @@ result-view {
     template ("식사 맛있게 하십시오."){
       speech("식사 맛있게 하십시오.")}
     }
+    
   render {
     if(size(results) > 1 ){ //여러 일자가 있을 때 하이라이트 카드뷰 보여줌
       list-of (results) {

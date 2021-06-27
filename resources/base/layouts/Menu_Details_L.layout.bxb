@@ -12,7 +12,7 @@ layout-macro-def (menu_details_L) {
           image-card {
             aspect-ratio (21:9)
             image-object-position(Top)
-              image-url ("/images/results22.jpg")
+              image-url ("/images/L_B.png")
                 title-area {
                   halign(Center)
                     slot1 {

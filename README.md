@@ -1,7 +1,7 @@
 <p align="Center">
   <img src="https://bixbydevelopers.com/dev/docs-assets/resources/dev-guide/bixby_logo_github-11221940070278028369.png">
   <br/>
-  <h1 align="Center">행정반 캡슐(군인 식단 조회)</h1>
+  <h1 align="Center">군식당(군인 식단표 조회 캡슐)</h1>
 </p>
 
 ## Overview
@@ -22,6 +22,8 @@
 
 ```
 오늘 점심 뭐야
+오늘 7369부대 점심 알려줘
+육군훈련소 내일 밥 뭐야
 오늘 밥 알려줘
 내일 저녁 뭐야
 내일 밥 알려줘
