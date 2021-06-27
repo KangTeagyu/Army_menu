@@ -5,8 +5,8 @@ result-view {
   }
   
   message{
-    template ("식사 맛있게 하십시오."){
-      speech("식사 맛있게 하십시오.")}
+    template ("#{value(action.army_num)}부대(급양대) 정보입니다.\n 식사 맛있게 하십시오."){
+      speech("#{value(action.army_num)}부대 정보입니다.\n 식사 맛있게 하십시오.")}
     }
     
 
