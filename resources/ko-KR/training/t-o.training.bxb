@@ -98,3 +98,7 @@ train (t-omw2w42809haxxo2kj4wg06au) {
   utterance ("[g:httpCall] (6282부대)[v:Army_num:6282] (저저번주)[v:time.DateTimeExpression] (알려줘)[v:find:findby]")
   last-modified (1624695143316)
 }
+train (t-ot90ktg7lrex4k3ydfu5onzzy) {
+  utterance ("[g:httpCall] (내일)[v:time.DateTimeExpression] 밥 (뭐나와)[v:find:findby]?")
+  last-modified (1624773767207)
+}

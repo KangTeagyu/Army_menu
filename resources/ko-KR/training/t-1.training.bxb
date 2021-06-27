@@ -78,3 +78,7 @@ train (t-14t0cqeux73v3f08br01h9483) {
   utterance ("[g:httpCall] (7652부대)[v:Army_num:7652] (알려줘)[v:find:findby]")
   last-modified (1624695397386)
 }
+train (t-1nzlqzixyp7wesir4bkj0ber6) {
+  utterance ("[g:httpCall] (오늘)[v:time.DateTimeExpression] 메뉴 (뭐나올까)[v:find:findby]")
+  last-modified (1624774750974)
+}

@@ -90,3 +90,7 @@ train (t-6vlt4qpyfhcu1nunffxks5hmo) {
   utterance ("[g:httpCall] (6176부대)[v:Army_num:6176] (알려줘)[v:find:findby]")
   last-modified (1624695439099)
 }
+train (t-6whb8my8dh9a1c5kmpclgy9qf) {
+  utterance ("[g:httpCall] (어제)[v:time.DateTimeExpression] 메뉴 (뭐였어)[v:find:findby]?")
+  last-modified (1624773572017)
+}

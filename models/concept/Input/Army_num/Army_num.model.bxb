@@ -1,5 +1,5 @@
 enum (Army_num) {
-  description (__DESCRIPTION__)
+  description (급양대 번호를 입력받습니다.)
   symbol (7652)
   symbol (3389)
   symbol (1691)
@@ -15,7 +15,5 @@ enum (Army_num) {
   symbol (8902)
   symbol (9030)
   symbol (ATC)
-  features{
-  transient
-  }
+
 }

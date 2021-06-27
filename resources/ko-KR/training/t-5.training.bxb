@@ -62,3 +62,7 @@ train (t-52s5ao21vop1vzgia8ius34zp) {
   utterance ("[g:httpCall] (6335부대)[v:Army_num:6335] (알려줘)[v:find:findby]")
   last-modified (1624695367586)
 }
+train (t-5ks3wwwhyqbr8wuf73gv462eo) {
+  utterance ("[g:httpCall] (논산 훈련소)[v:Army_num:ATC] (오늘)[v:time.DateTimeExpression] (점심)[v:Select_Time:Select_Lunc] (뭐나와)[v:find:findby]?")
+  last-modified (1624773403610)
+}

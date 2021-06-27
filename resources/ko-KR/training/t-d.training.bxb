@@ -66,3 +66,7 @@ train (t-dr7qb8aeu98swepw7hyzoq50p) {
   utterance ("[g:httpCall] (5021부대)[v:Army_num:5021] (이번달)[v:time.DateTimeExpression] (알려줘)[v:find:findby]")
   last-modified (1624694891298)
 }
+train (t-dkglwrdwzfljhk7ve85vhgbfc) {
+  utterance ("[g:httpCall] (저번주)[v:time.DateTimeExpression]에 어떤 메뉴 (나왔어)[v:find:findby]?")
+  last-modified (1624774846116)
+}

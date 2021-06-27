@@ -70,3 +70,11 @@ train (t-32eet2uu3h8qsilxcjy3w4fb0) {
   utterance ("[g:httpCall] (6176부대)[v:Army_num:6176] (저저번주)[v:time.DateTimeExpression] (알려줘)[v:find:findby]")
   last-modified (1624695196959)
 }
+train (t-3ldn59t7pb2ylrn5tyb0n1yy9) {
+  utterance ("[g:httpCall] (논산)[v:Army_num:ATC] (이번주)[v:time.DateTimeExpression] 메뉴 (알려줘)[v:find:findby]")
+  last-modified (1624773456714)
+}
+train (t-3l4ta3ay89ok1sfcz90fb73yu) {
+  utterance ("[g:httpCall] (9030부대)[v:Army_num:9030] (이번주)[v:time.DateTimeExpression] 식단 (모냐)[v:find:findby]")
+  last-modified (1624774084048)
+}

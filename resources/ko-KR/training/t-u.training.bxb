@@ -106,3 +106,11 @@ train (t-uklq3qm9q2065evjolm6xr7q7) {
   utterance ("[g:httpCall] (7369부대)[v:Army_num:7369] (알려줘)[v:find:findby]")
   last-modified (1624695433132)
 }
+train (t-u9nura6js5j0fp3he4594uqsy) {
+  utterance ("[g:httpCall] (7369부대)[v:Army_num:7369] (내일모레)[v:time.DateTimeExpression] (뭐나와)[v:find:findby]?")
+  last-modified (1624773531645)
+}
+train (t-u38wfho00qo7xsrjrgjln0tkh) {
+  utterance ("[g:httpCall] (3389부대)[v:Army_num:3389] (어제)[v:time.DateTimeExpression] (점심)[v:Select_Time:Select_Lunc] (뭐임요)[v:find:findby]?")
+  last-modified (1624773690166)
+}
