@@ -24,19 +24,18 @@ capsule {
   }
    
    
-
-   
   store-sections{
     section (FoodAndDrink)
     section (ArtAndLifestyle)
   }
 
-  runtime-version(8)
-  store-countries {
-    all {
-      except (CN)
+runtime-version(9)
+store-countries {
+        only {
+            allow (KR)
+            allow (US)
+        }
     }
-  }
 }
 
 //https://bixbydevelopers.com/dev/docs/dev-guide/developers/library 버전 참고

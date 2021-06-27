@@ -111,8 +111,13 @@ module.exports.function = function httpCall (army_num, find, date_input,select_T
   // if (Select_Time){result.push({Select_Time : select_Time})}
   // else{result.push({Select_Time : "Null"})}
   console.log("최종값", result);
-  
-  return result
+
+ 
+  if(result ==''){
+    result=ErrorEvent
+  }
+ return result
+
     }
 
   // if ( army_num == 7652 ) { army_num = "7652"}
